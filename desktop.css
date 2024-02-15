@@ -57,6 +57,10 @@
     text-align: right;
 }
 
+.nav-heading h1 {
+    margin-left: 196px;
+}
+
 .nav-menu {
     flex-direction: row;
     justify-content: flex-end;
@@ -102,3 +106,18 @@
 
 
 /* profile design starts here */
+
+
+/* about me design starts here */
+
+.aboutme-img img {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.about-me p {
+    text-align: left;
+}
+
+
+/* about me design ends here */

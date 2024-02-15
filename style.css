@@ -13,7 +13,7 @@ body {
     color: white;
 }
 
-a {
+.nav-menu a {
     color: white;
     font-size: 1.2rem;
     text-decoration: none;
@@ -96,3 +96,60 @@ a {
     display: table;
     clear: both;
 }
+
+
+/* about me starts here */
+
+.about-me h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.about-me {
+    background-color: #39a4ac;
+    padding: 1% 7%;
+    color: white;
+}
+
+.about-me::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.dotted-hr {
+    border: dotted 6px white;
+    border-bottom: none;
+    width: 80px;
+    margin: 20px auto;
+}
+
+.aboutme-img img {
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-left: 280px;
+}
+
+.about-me p {
+    text-align: center;
+}
+
+.about-me a {
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.cv-button {
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    padding: 17px;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+
+/* about me ends here */
