@@ -7,7 +7,7 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
-h1 {
+.nav-heading h1 {
     font-size: 2.5rem;
     text-align: center;
     color: white;
@@ -49,4 +49,50 @@ a {
 
 .nav-menu a:hover {
     background-color: gray;
+}
+
+.profile {
+    padding: 250px;
+    position: relative;
+    text-align: center;
+}
+
+.profile .top-weather-icon {
+    position: absolute;
+    right: 60px;
+    top: 80px;
+    transition: transform 2s;
+}
+
+.profile .top-weather-icon:hover {
+    transform: rotate(360deg);
+}
+
+.profile-desc h1 {
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+
+.profile-desc p {
+    margin: 0 auto 20 auto;
+    color: gray;
+    text-align: center;
+    width: 90%;
+}
+
+.profile .bottom-weather-icon {
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    transition: transform 2s;
+}
+
+.profile .bottom-weather-icon:hover {
+    transform: rotate(360deg);
+}
+
+.profile::after {
+    content: '';
+    display: table;
+    clear: both;
 }
