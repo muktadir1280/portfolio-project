@@ -271,3 +271,22 @@ body {
 
 
 /* professional experience endshere */
+
+
+/* achivement content starts here */
+
+.achivement-contact {
+    padding: 1% 7%;
+    background-color: #39a4ac;
+}
+
+.achivement h2 {
+    color: white;
+    text-align: center;
+}
+
+.achivement-contact::after {
+    content: '';
+    display: table;
+    clear: both;
+}
