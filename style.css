@@ -320,6 +320,25 @@ textarea {
     width: 100px;
 }
 
+.contact-links {
+    text-align: center;
+    color: white;
+}
+
+.media-buttons .btn {
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
 .achivement-contact::after {
     content: '';
     display: table;
