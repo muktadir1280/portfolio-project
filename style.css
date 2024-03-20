@@ -118,9 +118,9 @@ body {
 }
 
 .dotted-hr {
-    border: dotted 6px white;
+    border: dotted 5px white;
     border-bottom: none;
-    width: 80px;
+    width: 90px;
     margin: 20px auto;
 }
 
@@ -283,6 +283,41 @@ body {
 .achivement h2 {
     color: white;
     text-align: center;
+}
+
+.achivement p {
+    color: white;
+}
+
+.contact h2 {
+    color: white;
+    text-align: center;
+}
+
+.contact {
+    padding: 1% 7%;
+    text-align: center;
+}
+
+.contact input,
+textarea {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+.contact button {
+    border: none;
+    border-radius: 12px;
+    background-color: #052d2f;
+    padding: 12px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
 }
 
 .achivement-contact::after {
