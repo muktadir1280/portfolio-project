@@ -339,6 +339,42 @@ textarea {
     background-color: grey;
 }
 
+.footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* achivement contents ends here */
+
+
+/* footer contents starts here */
+
+.footer {
+    text-align: center;
+    background-color: black;
+}
+
+.footer-menu {
+    margin-top: 15px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    margin: 15px;
+    padding: 10px;
+    color: white;
+}
+
+.footer-menu a:hover {
+    color: tomato;
+}
+
+.footer-desc {
+    color: white;
+}
+
 .achivement-contact::after {
     content: '';
     display: table;
